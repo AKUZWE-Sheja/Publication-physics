@@ -133,7 +133,16 @@ a{
 
 @media only screen and (max-width: 880px){
     .nav{
-        display: none;
+        font-size: 12px;
+    }
+    h1 a{
+        font-size: 18px;
+    }
+    .search input[type='text']{
+        width: 5em;
+    }
+    .other img{
+     width: 1.6em;
     }
     .side img{
         width: 1em;
@@ -141,18 +150,45 @@ a{
         opacity: .9;
     }
 }
+@media only screen and (max-width: 630px){
+    .search input[type='text']{
+        width: 4em;
+    }
+    .search input[type='text'] ::placeholder{
+        font-size: 12px;
+    }
+    .logo img{
+        width: 3em;
+    }
+    h1 a{
+        font-size: 14px;
+    }
+    .nav{
+        font-size: 10px;
+    }
+    .nav ul li {
+        margin-right: 1em;
+    }
+    h2{
+        font-size: 18px;
+    }
+}
 
 @media only screen and (max-width: 545px){
-    .side #last{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 8px;
+    .nav{
+        font-size: 10px;
     }
-    .modern ul{
-        display: none;
+    h1 a{
+        font-size: 14px;
+    }
+    #last img{
+        width: 8px;
+    }
+    .words{
+        font-size: 14px;
     }
     h4{
-        display: none;
+        font-size: 14px;
     }
     .modern img{
         padding-top: .4em;
@@ -167,18 +203,40 @@ a{
     .auths{
         font-size: 14px;
     }
-}
-@media only screen and (max-width: 420px){
-    .side{
-        display: none;
-    }
-    .auths{
-        width: 100%;
+    .search input[type='text']{
+        padding: .4em .1em;
     }
     .other img{
-        display: none;
+        width: 1em;
+        height: 1em;
     }
-    h1{
-        display: none;
+    .logo img{
+        width: 2em;
+        height: 2em;
+    }
+    .side{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 420px){
+    .search input[type='text']{
+        width: 4em;
+    }
+    .other img{
+     width: 1em;
+    }
+    .side img{
+        width: .8em;
+        margin: .3em;
+        opacity: .9;
+    }
+    .words{
+        font-size: 8px;
+    }
+    h4{
+        font-size: 10px;
+    }
+    .modern img{
+        width: 2em;
     }
 }
