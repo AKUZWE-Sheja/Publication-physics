@@ -159,27 +159,109 @@ padding-top: 5em;
     color: #fff;
 }
 
+@media only screen and (max-width: 970px){
+    .picts img{
+        width: 1.5rem;
+    }
+    .picts>div{
+        width: 30%;
+    }
+}
 @media only screen and (max-width: 880px){
     .nav{
 font-size: 12px;
     }
-}
-@media only screen and (max-width: 420px){
+    h1 a{
+        font-size: 18px;
+    }
+    .search input[type='text']{
+        width: 5em;
+    }
     .only{
-        margin: .9em 0 .1em 1em;
-        font-size: 12px;
+        font-size: 16px;
+    }
+    .other img{
+        width: 1.6em;
+    }
+}
+@media only screen and (max-width: 635px){
+    .only{
+        margin: 1em;
+        font-size: 10px;
     }
     .only img{
         width: 14px;
     }
+    .search input[type='text']{
+        width: 4em;
+    }
+    .search input[type='text'] ::placeholder{
+        font-size: 12px;
+    }
+    .logo img{
+        width: 3em;
+    }
+    h1 a{
+        font-size: 14px;
+    }
+    .nav{
+        font-size: 10px;
+    }
+    #welcome{
+        font-size: 14px;
+    }
+    .picts{
+        font-size: 12px;
+    }
+    .nav ul li {
+        margin-right: 1em;
+      }
 }
-@media only screen and (max-width: 285px){
+@media only screen and (max-width: 500px){
     #welcome{
     font-size: 12px;
-    width: 100%;
     }
     .only{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        margin: .2em;
+        font-size: 10px;
+    }
+    .other img{
+        width: 1em;
+        height: 1em;
+    }
+    .logo img{
+        width: 2em;
+        height: 2em;
+    }
+    .search input[type='text']{
+        padding: .4em .1em;
+    }
+}
+@media only screen and (max-width: 465px){
+    h2{
+        font-size: 14px;
+    }
+    h1 a{
+        font-size: 12px;
+    }
+    .nav{
+        font-size: 8px;
+    }
+    .picts{
+        font-size: 10px;
+    }
+    .picts>div{
+        height: 4em;
+        width: 25%;
+    }
+    .rest>div{
+        height: 4em;
+        font-size: 14px;
+    }
+    .rest img{
+        width: 1em;
+    }
+    .picts img{
+        width: .8em;
     }
 }
